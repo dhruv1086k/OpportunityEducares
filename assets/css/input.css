@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.navLinks {
+  @apply mr-10 text-black hover:text-[#fc7d2d] cursor-pointer font-semibold;
+}

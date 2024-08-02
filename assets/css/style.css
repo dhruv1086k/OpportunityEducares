@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Exo 2", sans-serif;
+}
+
+.firstPageContent {
+  background-image: url("../images/img1.png");
+  padding: 1rem 10rem;
+}
+
+.topSubject,
+.contentSubject,
+.contentFeaturedSection,
+.propCards,
+.onlineOffline,
+.materialBanner,
+.testimonialsContainer,
+.excelBanner,
+.footerContainer {
+  padding: 1rem 10rem;
+}
+.subCard {
+  box-shadow: 0 0 10px #00000061;
+}
+
+.propCards .card {
+  background: linear-gradient(0deg, rgb(183, 183, 255), #f4f4f4);
+}
+
+.materialBannerContent {
+  width: 100%;
+  height: 28vh;
+  background-image: url("../images/img9.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 2rem 0;
+}
+
+.testimonials {
+  padding: 5rem 0;
+  color: #434343;
+  text-align: center;
+}
+.inner {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  /* padding: 0 20px; */
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.col {
+  flex: 33.33%;
+  max-width: 25.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonial {
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 0 10px #000;
+  border-radius: 10px;
+}
+.name {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.stars {
+  color: #fc7d2d;
+  margin-bottom: 20px;
+}
+
+.excelBannerinner {
+  width: 100%;
+  height: 24vh;
+  background-image: url("../images/img10.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+@media screen and (max-width: 960px) {
+  .col {
+    flex: 100%;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
