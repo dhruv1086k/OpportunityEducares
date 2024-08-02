@@ -8,9 +8,9 @@
 
 .firstPageContent {
   background-image: url("../images/img1.png");
-  padding: 1rem 10rem;
 }
 
+.firstPageContent,
 .topSubject,
 .contentSubject,
 .contentFeaturedSection,
@@ -22,6 +22,11 @@
 .footerContainer {
   padding: 1rem 10rem;
 }
+
+.menuBtn {
+  display: none;
+}
+
 .subCard {
   box-shadow: 0 0 10px #00000061;
 }
@@ -94,6 +99,38 @@
   justify-content: space-between;
   align-items: center;
   padding: 2rem 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .firstPageContent {
+    background-image: url("../images/img13.png");
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .firstPageContent,
+  .topSubject,
+  .contentSubject,
+  .contentFeaturedSection,
+  .propCards,
+  .onlineOffline,
+  .materialBanner,
+  .testimonialsContainer,
+  .excelBanner,
+  .footerContainer {
+    padding: 1rem 4rem;
+  }
+
+  .col {
+    max-width: 33.33%;
+  }
+
+  .firstPage header {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
 }
 
 @media screen and (max-width: 960px) {
