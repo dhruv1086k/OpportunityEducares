@@ -44,6 +44,7 @@
 
 .header ul li a {
   text-decoration: none;
+  transition: ease-in-out 0.2s;
 }
 
 .menu-icon {
@@ -176,20 +177,25 @@
     top: 70px;
     left: 0;
     right: 0;
-    padding-bottom: 1rem;
     flex-direction: column;
     text-align: center;
-    background: #004274;
+    background: #fff;
     gap: 0;
     overflow: hidden;
   }
   .header ul li {
-    padding: 20px 0;
+    padding-bottom: 20px;
   }
   .menu-icon {
     display: block;
   }
   #menuList {
     transition: all 0.5s;
+  }
+  #homeLi {
+    margin-top: 20px;
+  }
+  .firstPageContent {
+    background-image: url("../images/img13.png");
   }
 }
