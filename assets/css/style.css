@@ -204,4 +204,16 @@
   .firstPageContent {
     background-image: url("../images/img14.png");
   }
+  .firstPageContent,
+  .topSubject,
+  .contentSubject,
+  .contentFeaturedSection,
+  .propCards,
+  .onlineOffline,
+  .materialBanner,
+  .testimonialsContainer,
+  .excelBanner,
+  .footerContainer {
+    padding: 1rem 1rem;
+  }
 }
