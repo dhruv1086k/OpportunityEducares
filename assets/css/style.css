@@ -180,9 +180,14 @@
   #menuList {
     transition: all 0.5s;
   }
+  .firstPageContent {
+    background-image: url("../images/img12.png");
+    align-items: center;
+    text-align: center;
+  }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   .firstPageContent {
     background-image: url("../images/img14.png");
   }
