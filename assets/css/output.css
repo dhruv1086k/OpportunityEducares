@@ -1098,12 +1098,26 @@ video {
 }
 
 @media not all and (min-width: 1024px) {
+  .max-lg\:w-full {
+    width: 100%;
+  }
+
+  .max-lg\:w-1\/2 {
+    width: 50%;
+  }
+
   .max-lg\:items-center {
     align-items: center;
   }
 
   .max-lg\:text-center {
     text-align: center;
+  }
+}
+
+@media not all and (min-width: 768px) {
+  .max-md\:w-full {
+    width: 100%;
   }
 }
 
