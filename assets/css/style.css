@@ -44,8 +44,6 @@
 
 .header ul li a {
   text-decoration: none;
-  font-weight: 500;
-  transition: ease-in-out 0.2s;
 }
 
 .menu-icon {
@@ -155,24 +153,38 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 960px) {
+  .col {
+    flex: 100%;
+    max-width: 80%;
+  }
+}
+
 @media (max-width: 950px) {
   .col {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+@media (max-width: 950px) {
   .header ul {
     position: absolute;
     top: 70px;
     left: 0;
     right: 0;
+    padding-bottom: 1rem;
     flex-direction: column;
     text-align: center;
-    background: #fff;
+    background: #004274;
     gap: 0;
     overflow: hidden;
   }
   .header ul li {
-    margin: 1rem 0;
+    padding: 20px 0;
   }
   .menu-icon {
     display: block;
