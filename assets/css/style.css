@@ -44,6 +44,7 @@
 
 .header ul li a {
   text-decoration: none;
+  transition: all 0.1s;
 }
 
 .menu-icon {
