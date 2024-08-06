@@ -703,6 +703,10 @@ video {
   width: 18rem;
 }
 
+.w-\[120px\] {
+  width: 120px;
+}
+
 .w-full {
   width: 100%;
 }

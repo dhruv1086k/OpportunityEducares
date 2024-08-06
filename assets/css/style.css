@@ -133,6 +133,7 @@
   box-shadow: 0 0 20px #00000079;
   margin: 1rem;
   border-radius: 1rem;
+  max-width: 320px;
 }
 
 @media screen and (max-width: 1400px) {
@@ -163,9 +164,6 @@
 @media screen and (max-width: 1024px) {
   .firstPageContent {
     background-image: url("../images/img12.png");
-  }
-  .featCards {
-    min-width: 300px;
   }
 }
 
