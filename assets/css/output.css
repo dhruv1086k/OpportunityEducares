@@ -928,10 +928,6 @@ video {
   padding-top: 4rem;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1098,10 +1094,6 @@ video {
 }
 
 @media not all and (min-width: 1024px) {
-  .max-lg\:w-full {
-    width: 100%;
-  }
-
   .max-lg\:w-1\/2 {
     width: 50%;
   }
@@ -1128,6 +1120,10 @@ video {
 
   .max-sm\:h-\[80vh\] {
     height: 80vh;
+  }
+
+  .max-sm\:flex-col {
+    flex-direction: column;
   }
 
   .max-sm\:justify-end {
