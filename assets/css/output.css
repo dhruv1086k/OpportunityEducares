@@ -839,6 +839,11 @@ video {
   background-position: right;
 }
 
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -914,6 +919,11 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-32 {
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .pb-2 {
@@ -1098,8 +1108,20 @@ video {
     width: 50%;
   }
 
+  .max-lg\:w-1\/4 {
+    width: 25%;
+  }
+
+  .max-lg\:w-full {
+    width: 100%;
+  }
+
   .max-lg\:items-center {
     align-items: center;
+  }
+
+  .max-lg\:p-0 {
+    padding: 0px;
   }
 
   .max-lg\:text-center {
@@ -1110,6 +1132,10 @@ video {
 @media not all and (min-width: 768px) {
   .max-md\:w-full {
     width: 100%;
+  }
+
+  .max-md\:w-1\/4 {
+    width: 25%;
   }
 }
 

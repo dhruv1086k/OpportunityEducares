@@ -129,6 +129,12 @@
   padding: 2rem 0;
 }
 
+.featCards {
+  box-shadow: 0 0 20px #00000079;
+  margin: 1rem 0;
+  border-radius: 1rem;
+}
+
 @media screen and (max-width: 1400px) {
   .firstPageContent {
     background-image: url("../images/img13.png");
@@ -157,6 +163,9 @@
 @media screen and (max-width: 1024px) {
   .firstPageContent {
     background-image: url("../images/img12.png");
+  }
+  .featCards {
+    min-width: 300px;
   }
 }
 
