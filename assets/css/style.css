@@ -18,7 +18,6 @@
 .onlineOffline,
 .materialBanner,
 .testimonialsContainer,
-.excelBanner,
 .footerContainer {
   padding: 1rem 10rem;
 }
@@ -297,6 +296,13 @@
 @media screen and (max-width: 1024px) {
   .firstPageContent {
     background-image: url("../images/img12.png");
+  }
+  .excelBannerinner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height: 30vh;
   }
 }
 
