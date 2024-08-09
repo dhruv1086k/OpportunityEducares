@@ -4,6 +4,21 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Exo 2", sans-serif;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #fc7d2d;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .firstPageContent {
@@ -74,6 +89,10 @@
   align-items: center;
   gap: 5px;
   padding: 2rem 0;
+}
+
+#menuList li a {
+  transition: ease-in-out 0.2s;
 }
 
 .testimonials {
