@@ -58,14 +58,14 @@ let menuList = document.getElementById("menuList")
 		testSlide[counter].style.animation = 'next2 1s ease-in forwards';
 		indicators();
 	}
-	function autoSliding(){
-		deleteInterval = setInterval(timer, 5000);
-		function timer(){
-			slideNext();
-			indicators();
-		}
-	}
-	autoSliding();
+	// function autoSliding(){
+	// 	deleteInterval = setInterval(timer, 5000);
+	// 	function timer(){
+	// 		slideNext();
+	// 		indicators();
+	// 	}
+	// }
+	// autoSliding();
 
 	// Stop auto sliding when mouse is over the indicators
 	const container = document.querySelector('.indicators');
@@ -76,3 +76,8 @@ let menuList = document.getElementById("menuList")
 
 	// Resume sliding when mouse is out of the indicators
 	container.addEventListener('mouseout', autoSliding);
+
+
+
+
+	
