@@ -1,0 +1,29 @@
+.imageCont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageConttt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageConttt img {
+  width: 90%;
+  border-radius: 10px;
+}
+
+.imageCont img {
+  width: 90%;
+  border-radius: 10px;
+}
+
+h4 {
+  padding: 0 0.5rem;
+}
