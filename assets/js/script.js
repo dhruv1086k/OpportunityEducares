@@ -25,15 +25,15 @@ let menuList = document.getElementById("menuList")
 		currentTest.classList.add('active');
 		var testId = currentTest.getAttribute('attr');
 		if(testId > counter){
-			testSlide[counter].style.animation = 'next1 0.5s ease-in forwards';
+			testSlide[counter].style.animation = 'next1 1s ease-in forwards';
 			counter = testId;
-			testSlide[counter].style.animation = 'next2 0.5s ease-in forwards';
+			testSlide[counter].style.animation = 'next2 1s ease-in forwards';
 		}
 		else if(testId == counter){return;}
 		else{
-			testSlide[counter].style.animation = 'prev1 0.5s ease-in forwards';
+			testSlide[counter].style.animation = 'prev1 1s ease-in forwards';
 			counter = testId;
-			testSlide[counter].style.animation = 'prev2 0.5s ease-in forwards';
+			testSlide[counter].style.animation = 'prev2 1s ease-in forwards';
 		}
 		indicators();
 	}
@@ -48,18 +48,18 @@ let menuList = document.getElementById("menuList")
 
 	// Code for auto sliding
 	function slideNext(){
-		testSlide[counter].style.animation = 'next1 0.5s ease-in forwards';
+		testSlide[counter].style.animation = 'next1 1s ease-in forwards';
 		if(counter >= testSlide.length - 1){
 			counter = 0;
 		}
 		else{
 			counter++;
 		}
-		testSlide[counter].style.animation = 'next2 0.5s ease-in forwards';
+		testSlide[counter].style.animation = 'next2 1s ease-in forwards';
 		indicators();
 	}
 	function autoSliding(){
-		deleteInterval = setInterval(timer, 2000);
+		deleteInterval = setInterval(timer, 5000);
 		function timer(){
 			slideNext();
 			indicators();
